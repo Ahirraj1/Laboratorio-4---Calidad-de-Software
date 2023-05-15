@@ -1,6 +1,8 @@
 LABORATORIO 4 - CALIDAD DE SOFTWARE
 
+
 PASOS DEL LABORATORIO – TALLER
+
 
 •	Crear un repositorio en GitHub y nombra la rama principal como "main".
 • En el archivo README.md incluir una descripción del proyecto y las instrucciones plasmadas en este papel.
