@@ -1,12 +1,11 @@
 LABORATORIO 4 - CALIDAD DE SOFTWARE
 
 
-Grupo: 1SF133			Fecha: 10 de mayo de 2023
+Grupo: 1SF133			
 
-Integrantes:  Raj Ahir
-              Adriana González
-              Steven Guerra
+Fecha: 10 de mayo de 2023
 
+Integrantes:  Raj Ahir, Adriana González y Steven Guerra
 
 
 PASOS DEL LABORATORIO – TALLER
