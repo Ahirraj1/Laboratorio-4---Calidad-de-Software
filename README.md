@@ -1,7 +1,9 @@
+LABORATORIO 4 - CALIDAD DE SOFTWARE
+
 PASOS DEL LABORATORIO – TALLER
 
 •	Crear un repositorio en GitHub y nombra la rama principal como "main".
-•	En el archivo README.md incluir una descripción del proyecto y las instrucciones plasmadas en este papel.
+• En el archivo README.md incluir una descripción del proyecto y las instrucciones plasmadas en este papel.
 •	Crear tres ramas nuevas a partir de la rama principal, nombradas como "funcionalidad1", "funcionalidad2" y "funcionalidad3".
 •	Cada estudiante debe clonar el repositorio y trabajar en su propia rama correspondiente a la funcionalidad asignada.
 •	Una vez que el estudiante termine su funcionalidad, debe hacer el merge de su rama con la rama principal "main".
