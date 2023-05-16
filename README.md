@@ -6,7 +6,7 @@ Grupo: 1SF133
 
 Fecha: 10 de mayo de 2023
 
-Integrantes:  Raj Ahir, Adriana González y Steven Guerra
+Integrantes:  Raj Ahir (20-39-6034), Adriana González(8-997-2009) y Steven Guerra (8-964-1219)
 
 
 
