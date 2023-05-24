@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mi proyecto GitHub</title>
+    <title>Mi Proyecto GitHub</title>
   </head>
-  <body>
-    <h1>Bienvenido a mi proyecto GitHub</h1>
-    <p>Este es un proyecto de ejemplo para el laboratorio de GitHub en la clase de Calidad de Software.</p>
-    <ul>
+  
+  <style>
+    .forma1{
+      padding: 20px;
+      margin: 0%;
+      background-color: rgba(215, 253, 198, 0.432);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .texto{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  </style>
+  
+  <body class="forma1">
+    <h1 class="texto">Bienvenido a mi proyecto GitHub</h1>
+    <p class="texto">Este es un proyecto de ejemplo para el laboratorio de GitHub en la clase de Calidad de Software.<br></p>
+    <ul class="texto">
       <li><a href="Funcionalidad1.html">Funcionalidad 1</a></li>
       <li><a href="Funcionalidad2.html">Funcionalidad 2</a></li>
       <li><a href="Funcionalidad3.html">Funcionalidad 3</a></li>
     </ul>
+    <br>
+
+    <section class="texto">
+      <h2>Portafolio Digital</h2>
+            <select name="alumno" id="alumno" onchange="location = this.value;">
+            <option value="select">Seleccione a un estudiante</option>
+            <option value="PortafolioRaj.html">Raj Ahir</option>
+            <option value="PortafolioAdriana.html">Adriana González</option>
+            <option value="PortafolioSteven.html">Steven Guerra</option>
+            </select>
+    </section>
+
   </body>
 </html>
