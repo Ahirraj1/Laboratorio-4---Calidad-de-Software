@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PD: Raj Ahir</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+
+      <style>
+        .forma1{
+          padding: 60px;
+          margin: 0%;
+          background-color: rgb(247, 247, 247);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .texto{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h1{
+            font-size: 40px;
+            margin: 0%;
+        }
+        h2{
+            line-height: 0px;
+        }
+
+        #tabla-perfil {
+            display:inline-block;
+            width:100%;
+            margin-top:50px
+            }
+
+            /*Columnas*/
+
+            .perfil-col {
+            display:inline-block;
+            background-color:#f3f3f3;
+            width:100%;
+            max-width:500px;
+            border-radius:10px;
+            margin-bottom:50px;
+            box-shadow: 0px 2px 5px #ddd
+            }
+
+            @media screen and (min-width:768px) {
+            .perfil-col {
+            width:32%;
+            float:left;
+            margin-right:2%
+            }
+            
+            .perfil-col:last-child {
+            margin-right:0
+            }
+            }
+
+            /*Headers*/
+
+            .perfil-col-header {
+            background-color:#54641b;
+            padding:20px;
+            border-top-left-radius:10px;
+            border-top-right-radius:10px
+            }
+
+            .perfil-col:nth-child(2) .perfil-col-header {
+            background-color:#36105a
+            }
+
+            .perfil-col-header h3 {
+            color:#f3f3f3;
+            text-align:center;
+            font-size:30px;
+            font-weight:600;
+            margin-bottom:0
+            }
+
+            .perfil-col-header p {
+            text-align:center;
+            color:#f3f3f3;
+            font-size:14px;
+            margin-bottom:0
+            }
+
+            /*Características*/
+
+            .perfil-col-features {
+            padding: 0 20px 20px 20px
+            }
+
+            .perfil-col-features p {
+            padding:20px 0;
+            margin:0;
+            text-align:justify;
+            border-top:1px solid #ddd
+            }
+
+            .perfil-col-features p:first-child,
+            .perfil-col-features p:last-child {
+               border-top:none
+            }
+
+            /*Comprar*/
+
+            .perfil-col-comprar {
+            padding:10px;
+            max-width:250px;
+            text-align:center;
+            background-color:#dd9933;
+            margin: 0 auto 20px;
+            border-radius:10px;
+            border: 2px solid #dd9933;
+            transition: all 0.3s
+            }
+
+            .perfil-col-comprar a {
+            color:#f3f3f3;
+            padding:10px;
+            font-size:20px;
+            text-transform:uppercase;
+            transition: all 0.3s
+            }
+
+            .perfil-col-comprar:hover {
+            background-color:#f3f3f3;
+            transition: all 0.3s
+            }
+
+            .perfil-col-comprar:hover a {
+            color:#dd9933;
+            transition: all 0.3s
+            }
+
+            .pefil{
+              font-family: Arial, sans-serif;
+
+            }
+
+            .perfil{
+              align-content: center;
+            }
+
+            .box1{
+              align-content: center;
+              padding-left: 800px;
+            }
+
+            .box2{
+              align-items: center;
+              padding-left: 150px;
+            }
+      </style>
+
+      <body class="forma1">
+        <h1 class="texto">Raj Ahir</h1>
+        <h2 class="texto">Portafolio Digital</h2>
+        
+        <!-- PERFIL-->
+            <div class="box1" id="tabla-perfil">
+                <div class="perfil-col">
+                  <div class="perfil-col-header">
+                    <h3>Habilidades</h3>
+                  </div>
+                  
+                  <div class="perfil-col-features">
+                    <p>Capacidad para realizar la fase de requisitos en la contrucción de Software.</p>
+                    <p>Capaz de crear interfaces intuitivas.</p>
+                    <p>Capacidad para solucionar un problema del mundo real con respecto a la base de datos.</p>
+                  </div>
+              
+                </div>
+
+                <div class="perfil-col">
+                  <div class="perfil-col-header">
+                    <h3>Experiencias</h3>
+                  </div>
+                  
+                  <div class="perfil-col-features">
+                    <p>Desarrollo Web.</p>
+                    <p>Análisis de Requisitos.</p>
+                    <p>Desarrollo de Software.</p>
+                  </div>
+              
+                </div>
+              </div>
+
+         <!-- PROYECTOS-->
+        <div id="tabla-perfil">
+            <!-- PROYECTO 1-->
+            <div class="perfil-col">
+              <div class="perfil-col-header">
+              <h3>El Ahorcado</h3>
+              <p>Juego basado en complejidad algorítmica</p>
+              </div>
+              
+              <br>
+              <br>
+              <div class="box2">
+                <img src="img/hangman.png" width="150px">
+              </div>
+              <br>
+              <br>
+              <div class="perfil-col-comprar">
+                <a href="https://github.com/adrianagonzalez4/Juego-El-Ahorcado.git">Ver</a>
+              </div>
+             </div>
+            
+             <!-- PROYECTO 2-->
+             <div class="perfil-col">
+              <div class="perfil-col-header">
+              <h3>Nanotecnologia</h3>
+              <p>Una pagina web introductoria a la nanotecnologia.</p>
+              </div>
+              
+              <br>
+              <br>
+              <div class="box2">
+                <img src="img/Nanotecnologia.jpg" width="115px">
+              </div>
+              <br>
+              <br>
+              <div class="perfil-col-comprar">
+                <a href="https://github.com/Ahirraj1/Ahirraj1.github.io">Ver</a>
+              </div>
+             </div>
+             
+            <!-- PROYECTO 2-->
+            <div class="perfil-col">
+              <div class="perfil-col-header">
+              <h3>El Gimnasio</h3>
+              <p>Programa para registrar clientes de un gimnasio.</p>
+              </div>
+              
+              <br>
+              <br>
+              <div class="box2">
+                <img src="img/gimnasio.jpg" width="160px">
+              </div>
+              <br>
+              <br>
+              <div class="perfil-col-comprar">
+                <a href="https://github.com/adrianagonzalez4/Registro-de-clientes-en-Gimnasio.git">Ver</a>
+              </div>
+             </div>
+            
+            </div>
+      </body>
+</html>
